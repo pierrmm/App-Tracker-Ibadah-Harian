@@ -1,5 +1,4 @@
 
-```markdown
 # App Tracker Ibadah Harian 🕌
 
 Aplikasi untuk melacak dan mengelola ibadah harian Anda dengan mudah dan terorganisir.
