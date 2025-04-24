@@ -1,51 +1,125 @@
-# Welcome to your Expo app 👋
+**File: c:\belajar_native\App-Tracker-Ibadah-Harian\README.md**
+```markdown
+# App Tracker Ibadah Harian 🕌
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplikasi untuk melacak dan mengelola ibadah harian Anda dengan mudah dan terorganisir.
 
-## Get started
+![App Screenshot](./assets/images/muslim-logo.png)
 
-1. Install dependencies
+## Tentang Aplikasi
+
+App Tracker Ibadah Harian adalah aplikasi mobile yang membantu Anda melacak dan mengelola ibadah harian. Aplikasi ini dirancang untuk memudahkan pengguna Muslim dalam mencatat dan memantau kegiatan ibadah mereka, seperti sholat wajib, sholat sunnah, membaca Al-Qur'an, dan ibadah lainnya.
+
+### Fitur Utama
+
+- **Jadwal Waktu Sholat**: Menampilkan waktu sholat berdasarkan lokasi Anda
+- **Pelacak Ibadah**: Mencatat dan mengelola ibadah wajib dan sunnah
+- **Pengingat**: Notifikasi untuk waktu sholat dan ibadah lainnya
+- **Tampilan Kalender**: Melihat riwayat ibadah dalam format kalender
+- **Filter Kategori**: Memfilter ibadah berdasarkan kategori (wajib/sunnah)
+- **Penanda Selesai**: Menandai ibadah yang telah dilaksanakan
+
+## Memulai
+
+### Prasyarat
+
+- Node.js (versi 14 atau lebih tinggi)
+- npm atau yarn
+- Expo CLI
+
+### Instalasi
+
+1. Clone repositori ini
+
+   ```bash
+   git clone https://github.com/username/App-Tracker-Ibadah-Harian.git
+   cd App-Tracker-Ibadah-Harian
+   ```
+
+2. Install dependensi
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Jalankan aplikasi
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Buka aplikasi di:
+   - Emulator Android
+   - Simulator iOS
+   - Expo Go di perangkat fisik dengan memindai kode QR
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Penggunaan
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Menambahkan Ibadah Baru
 
-## Get a fresh project
+1. Buka aplikasi dan navigasikan ke halaman utama
+2. Isi nama ibadah pada form "Tambah Ibadah"
+3. Pilih tanggal pelaksanaan ibadah
+4. Pilih kategori ibadah (Wajib/Sunnah)
+5. Tekan tombol "Tambah Ibadah"
 
-When you're ready, run:
+### Mengelola Ibadah
 
-```bash
-npm run reset-project
+- **Menandai Selesai**: Tekan checkbox di sebelah kiri nama ibadah
+- **Mengedit Ibadah**: Tekan ikon pensil pada ibadah yang ingin diedit
+- **Menghapus Ibadah**: Tekan ikon tempat sampah pada ibadah yang ingin dihapus
+
+### Memfilter Ibadah
+
+Gunakan tombol filter di bagian atas daftar ibadah untuk menampilkan:
+- Semua ibadah
+- Hanya ibadah wajib
+- Hanya ibadah sunnah
+
+## Teknologi yang Digunakan
+
+- [React Native](https://reactnative.dev/) - Framework untuk pengembangan aplikasi mobile
+- [Expo](https://expo.dev/) - Platform untuk membangun dan men-deploy aplikasi React Native
+- [React Navigation](https://reactnavigation.org/) - Navigasi dalam aplikasi
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) - Penyimpanan data lokal
+- [Expo Location](https://docs.expo.dev/versions/latest/sdk/location/) - Akses lokasi pengguna
+- [Tailwind CSS (TWRNC)](https://github.com/jaredh159/tailwind-react-native-classnames) - Styling aplikasi
+
+## Kontribusi
+
+Kontribusi selalu diterima dengan baik! Jika Anda ingin berkontribusi:
+
+1. Fork repositori
+2. Buat branch fitur baru (`git checkout -b feature/amazing-feature`)
+3. Commit perubahan Anda (`git commit -m 'Add some amazing feature'`)
+4. Push ke branch (`git push origin feature/amazing-feature`)
+5. Buka Pull Request
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
+
+## Kontak
+
+Nama Anda - [@twitter_handle](https://twitter.com/twitter_handle) - email@example.com
+
+Link Proyek: [https://github.com/username/App-Tracker-Ibadah-Harian](https://github.com/username/App-Tracker-Ibadah-Harian)
+
+---
+
+Dibuat dengan ❤️ untuk membantu umat Muslim mengelola ibadah harian mereka.
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Saya telah membuat dokumentasi README yang komprehensif untuk aplikasi Tracker Ibadah Harian Anda. Dokumentasi ini mencakup:
 
-## Learn more
+1. **Pengenalan aplikasi** - Menjelaskan tujuan dan manfaat aplikasi
+2. **Fitur utama** - Menampilkan kemampuan utama aplikasi
+3. **Panduan instalasi** - Langkah-langkah untuk menginstal dan menjalankan aplikasi
+4. **Panduan penggunaan** - Cara menggunakan fitur-fitur utama aplikasi
+5. **Teknologi yang digunakan** - Daftar teknologi dan library yang digunakan
+6. **Panduan kontribusi** - Cara berkontribusi pada proyek
+7. **Informasi lisensi dan kontak** - Detail tambahan untuk pengguna dan kontributor
 
-To learn more about developing your project with Expo, look at the following resources:
+Anda dapat menyesuaikan bagian-bagian tertentu seperti nama pengguna GitHub, handle Twitter, dan alamat email dengan informasi Anda sendiri. Juga, pastikan untuk menambahkan file LICENSE jika belum ada.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# App-Tracker-Ibadah-Harian
+Screenshot aplikasi juga akan meningkatkan README, jadi Anda bisa menambahkan beberapa tangkapan layar aplikasi di bagian awal dokumentasi.
