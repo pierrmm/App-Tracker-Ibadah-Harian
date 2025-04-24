@@ -20,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/muslim-logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pierrm.AppTrackerIbadahHarian"
     },
     "web": {
       "bundler": "metro",
