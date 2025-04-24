@@ -1,4 +1,4 @@
-**File: c:\belajar_native\App-Tracker-Ibadah-Harian\README.md**
+
 ```markdown
 # App Tracker Ibadah Harian 🕌
 
